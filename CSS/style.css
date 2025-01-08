@@ -1,0 +1,84 @@
+:root{
+    --red-color: #F38181;
+     --greenlight-color: #95E1D3;
+     --black-color: #333333;
+     --light-wight-color: #B6B6B6;
+}
+
+body{
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+.nav-link:hover{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--greenlight-color);
+    text-decoration: none;
+}
+.services-subtitle, .team-subtitle{
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.services-title, .team-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.services-item-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.services-item-text{
+    color: var(--light-wight-color);
+    line-height: 1.46;
+}
+.team-text{
+    text-align: center;
+    color: var(--light-wight-color);
+    line-height: 1.17;
+}
+.post-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.post-text{
+    color: var(--light-wight-color);
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+.footer-copy, .footer-copy-name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--black-color);
+}
+.footer-copy-name{
+    color: var(--red-color);
+    text-decoration: none;
+}
+.footer-form-input{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+.footer-form-btn{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    background: var(--greenlight-color);
+}
