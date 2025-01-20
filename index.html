@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,127 +16,139 @@
 
 <body>
     <header class="header">
-        <a class="logo" href="">
-            <img src="img/MoGo.png" alt="" />
-        </a>
-        <!-- nav>a*5 -->
-        <nav class="nav">
-            <a class="nav-link" href="">ABOUT</a>
-            <a class="nav-link" href="">SERVICES</a>
-            <a class="nav-link" href="">WORK</a>
-            <a class="nav-link" href="">BLOG</a>
-            <a class="nav-link" href="">CONTACT</a>
-        </nav>
+        <div class="container">
+            <a class="logo" href="">
+                <img src="img/MoGo.png" alt="" />
+            </a>
+            <!-- nav>a*5 -->
+            <nav class="nav">
+                <a class="nav-link" href="">ABOUT</a>
+                <a class="nav-link" href="">SERVICES</a>
+                <a class="nav-link" href="">WORK</a>
+                <a class="nav-link" href="">BLOG</a>
+                <a class="nav-link" href="">CONTACT</a>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="services">
-            <div class="services-wrap">
-                <h3 class="services-subtitle">We work with</h3>
-                <h2 class="services-title">Amazing Services</h2>
-                <hr />
-                <div class="line"></div>
+            <div class="container">
+                <div class="services-wrap">
+                    <h3 class="services-subtitle">We work with</h3>
+                    <h2 class="services-title">Amazing Services</h2>
+                    <hr />
+                    <div class="line"></div>
+                </div>
+                <ul class="services-list">
+                    <li class="services-item">
+                        <img class="services-item-img" src="img/alarm 1.png" alt="" />
+                        <h4 class="services-item-title">photography</h4>
+                        <p class="services-item-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
+                            rerum.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="services-item-img" src="img/bar-graph 1.png" alt="" />
+                        <h4 class="services-item-title">photography</h4>
+                        <p class="services-item-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
+                            eaque?
+                        </p>
+                    </li>
+                    <li>
+                        <img class="services-item-img" src="img/display 1.png" alt="" />
+                        <h4 class="services-item-title">photography</h4>
+                        <p class="services-item-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
+                            odio.
+                        </p>
+                    </li>
+                    <li>
+                        <img class="services-item-img" src="img/paper 1.png" alt="" />
+                        <h4 class="services-item-title">photography</h4>
+                        <p class="services-item-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Expedita, placeat?
+                        </p>
+                    </li>
+                    <li>
+                        <img class="services-item-img" src="img/home 1.png" alt="" />
+                        <h4 class="services-item-title">photography</h4>
+                        <p class="services-item-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda, sint!
+                        </p>
+                    </li>
+                    <li>
+                        <img class="services-item-img" src="img/digital-marketing 1.png" alt="" />
+                        <h4 class="services-item-title">photography</h4>
+                        <p class="services-item-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                            fugit.
+                        </p>
+                    </li>
+                </ul>
             </div>
-            <ul class="services-list">
-                <li class="services-item">
-                    <img class="services-item-img" src="img/alarm 1.png" alt="" />
-                    <h4 class="services-item-title">photography</h4>
-                    <p class="services-item-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
-                        rerum.
-                    </p>
-                </li>
-                <li>
-                    <img class="services-item-img" src="img/bar-graph 1.png" alt="" />
-                    <h4 class="services-item-title">photography</h4>
-                    <p class="services-item-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
-                        eaque?
-                    </p>
-                </li>
-                <li>
-                    <img class="services-item-img" src="img/display 1.png" alt="" />
-                    <h4 class="services-item-title">photography</h4>
-                    <p class="services-item-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
-                        odio.
-                    </p>
-                </li>
-                <li>
-                    <img class="services-item-img" src="img/paper 1.png" alt="" />
-                    <h4 class="services-item-title">photography</h4>
-                    <p class="services-item-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-                        placeat?
-                    </p>
-                </li>
-                <li>
-                    <img class="services-item-img" src="img/home 1.png" alt="" />
-                    <h4 class="services-item-title">photography</h4>
-                    <p class="services-item-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Assumenda, sint!
-                    </p>
-                </li>
-                <li>
-                    <img class="services-item-img" src="img/digital-marketing 1.png" alt="" />
-                    <h4 class="services-item-title">photography</h4>
-                    <p class="services-item-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
-                        fugit.
-                    </p>
-                </li>
-            </ul>
         </section>
         <section class="team">
-            <div class="team-wrap">
-                <h3 class="team-subtitle">Who we are</h3>
-                <h2 class="team-title">Meet our team</h2>
-                <hr />
-                <div class="line"></div>
-                <p class="team-text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-                    accusantium ut optio eveniet ratione cupiditate, pariatur sequi
-                    quibusdam eum iusto!
-                </p>
+            <div class="container">
+                <div class="team-wrap">
+                    <h3 class="team-subtitle">Who we are</h3>
+                    <h2 class="team-title">Meet our team</h2>
+                    <hr />
+                    <div class="line"></div>
+                    <p class="team-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                        accusantium ut optio eveniet ratione cupiditate, pariatur sequi
+                        quibusdam eum iusto!
+                    </p>
+                </div>
+                <ul class="team-list">
+                    <li class="team-item">
+                        <figure class="post">
+                            <img class="post-img" src="img/first-man 1.png" alt="" />
+                            <figcaption class="post-description">
+                                <h4 class="post-title">Matthew Dix</h4>
+                                <p class="post-text">Graphic Design</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="team-item">
+                        <figure class="post">
+                            <img class="post-img" src="img/second-man 1.png" alt="" />
+                            <figcaption class="post-description">
+                                <h4 class="post-title">Christopher Campbell</h4>
+                                <p class="post-text">Branding/UX design</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="team-item">
+                        <figure class="post">
+                            <img class="post-img" src="img/third-man 1.png" alt="" />
+                            <figcaption class="post-description">
+                                <h4 class="post-title">Michael Fertig</h4>
+                                <p class="post-text">Developer</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
             </div>
-            <ul class="team-list">
-                <li class="team-item">
-                    <figure class="post">
-                        <img class="post-img" src="img/first-man 1.png" alt="" />
-                        <figcaption class="post-description">
-                            <h4 class="post-title">Matthew Dix</h4>
-                            <p class="post-text">Graphic Design</p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="team-item">
-                    <figure class="post">
-                        <img class="post-img" src="img/second-man 1.png" alt="" />
-                        <figcaption class="post-description">
-                            <h4 class="post-title">Christopher Campbell</h4>
-                            <p class="post-text">Branding/UX design</p>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class="team-item">
-                    <figure class="post">
-                        <img class="post-img" src="img/third-man 1.png" alt="" />
-                        <figcaption class="post-description">
-                            <h4 class="post-title">Michael Fertig</h4>
-                            <p class="post-text">Developer</p>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
         </section>
     </main>
     <footer class="footer">
-        <p class="footer-copy">© 2016 MoGo free PSD template by <a class="footer-copy-name" href="#"></a>Laaqiq</p>
-        <form class="footer-form">
-            <input class="footer-form-input" type="email" name="Email" id="Email" placeholder="Your email" />
-            <button class="footer-form-btn" type="submit" for="Email">SUBMIT</button><br />
-        </form>
+        <div class="container">
+            <p class="footer-copy">
+                © 2016 MoGo free PSD template by
+                <a class="footer-copy-name" href="#"></a>Laaqiq
+            </p>
+            <form class="footer-form">
+                <input class="footer-form-input" type="email" name="Email" id="Email" placeholder="Your email" />
+                <button class="footer-form-btn" type="submit" for="Email">
+                    SUBSCRIBE</button><br />
+            </form>
+        </div>
     </footer>
 </body>
 
