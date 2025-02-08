@@ -23,12 +23,15 @@ ul{
 
     outline: 2px dashed red;
 }
-.nav-link:hover{
+.nav-link{
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: var(--greenlight-color);
     text-decoration: none;
+}
+.nav-link:hover {
+    color: var(--red-color);
 }
 .services-subtitle, .team-subtitle{
     font-family: "Kaushan Script", sans-serif;
@@ -48,7 +51,6 @@ ul{
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
-    text-align: center;
 }
 .services-item-text{
     color: var(--light-wight-color);
@@ -102,4 +104,32 @@ ul{
 .footer-form-btn{
     border: none;
     padding: 12px 38px;
+}
+.header-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    padding: 17px 0;
+}
+.nav-link:not(:last-child){
+    margin-right: 55px;
+}
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-item{
+    width: 366px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+.services-item-title{
+    margin-top: 0;
+}
+.services-item-img{
+    margin-right: 18px;
 }
