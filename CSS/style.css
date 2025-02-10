@@ -20,8 +20,6 @@ ul{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-
-    outline: 2px dashed red;
 }
 .nav-link{
     font-family: "Montserrat", sans-serif;
@@ -133,3 +131,34 @@ ul{
 .services-item-img{
     margin-right: 18px;
 }
+.services-line, .team-line{
+    background-color: var(--red-color);
+    height: 4px;
+    width: 68px;
+    margin: 40px auto 65px auto;
+}
+.team-line{
+    margin-bottom: 40px;
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200;
+}
+figure{
+    margin: 0;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+
+    border-top: 5px solid var(--light-wight-color);
+}
+.services{
+    margin-top: 70px;
+}
+
